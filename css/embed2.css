@@ -1,7 +1,7 @@
 body, html {
     margin: 0px;
     padding: 0px;
-    background: #0f0f0f;
+    background: #fff;
     font-size: 11pt;
     font-family: 'Roboto', sans-serif;
     display: block;
@@ -25,16 +25,16 @@ body, html {
     white-space: nowrap;
     text-overflow: ellipsis;
     font-size: 50px;
-    color: #fff;
+    color: #000;
     margin-top: 5px;
-    font-weight: 100;
+    font-weight:1000;
 }
 #count {
     font-size: 100px;
     position: absolute;
     left: 225px;
     top: 76px;
-    color: #fff;
-    font-weight: 600;
+    color: #000;
+    font-weight: 500;
     margin-top: 10px;
 }
