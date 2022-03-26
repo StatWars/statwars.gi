@@ -37,3 +37,7 @@ body, html {
     font-weight: bold;
     margin-top: 10px;
 }
+@font-face {
+    font-family: 'own_font'; /*a name to be used later*/
+    src: url('logo/Roboto-Bold.ttf'); /*URL to font*/
+}
