@@ -3,7 +3,7 @@ body, html {
     padding: 0px;
     background: #0f0f0f;
     font-size: 11pt;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'own_font', sans-serif;
     display: block;
 }
 #logo {
@@ -13,7 +13,7 @@ body, html {
     margin-top: 10px;
     height: 200px;
     width: 200px;
-    border-radius: 50%;
+    border-radius: 0%;
     position: relative;
     margin-left: 10px;
 }
