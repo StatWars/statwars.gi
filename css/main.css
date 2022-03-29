@@ -4,7 +4,7 @@ div {display: block;}
 h1 {font-weight: 600; font-size: 50pt; margin: 0px auto; position: relative; text-align: center;}
 h1:after {font-family: FontAwesome; content: "\f16a"; position: absolute; color: #ff5a58; padding-left: 10px; padding-top: 12px; font-size: 28px;}
 h2 {font-weight: 400; font-size: 20pt; margin: 0px auto; position: relative; text-align: center;}
-#count-block {width:1260px; height:570px; margin: 0px auto; margin-top: 20px; background:#0f0f0f; overflow: hidden; position: relative; background-image: url(/arrowup.png); background-repeat: no-repeat; background-position: center; background-size: 275px; background-position-y: 245px;}
+#count-block {width:1260px; height:570px; margin: 0px auto; margin-top: 20px; background: #181818; overflow: hidden; position: relative; background-image: url(/arrowup.png); background-repeat: no-repeat; background-position: center; background-size: 275px; background-position-y: 245px;}
 #logo {width: 200px; position: relative; margin: 0px auto; margin-top: 10px; left: 42%; -webkit-box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.2); -moz-box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.3); box-shadow: 0px 0px 8px 0px rgba(255, 255, 255, 0.3); border-radius: 50%;}
 #mini-counts {width:1260px; margin: 0px auto; margin-top: 20px;}
 #like-box {width: 620px; height: 120px; position: relative; float: left; margin: 0px auto; margin-right: 20px; margin-bottom: 20px; background: #0f0f0f; overflow: hidden;}
