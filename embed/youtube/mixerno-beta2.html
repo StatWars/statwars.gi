@@ -20,7 +20,7 @@ var channel = window.location.href.split('?u=')[1] || '';
 function update(chanid) {
     fetch('https://api.subscriberwars.space/mixerno/yt/'+chanid+'')
     .then(res => res.json()).then(data => {
-        count.innerHTML = "• " + data.estCounts.subCount
+        count.innerHTML = data.estCounts.subCount
         title.innerHTML = data.info.name
         logo.src = data.info.pfp
     });
