@@ -1,6 +1,6 @@
 .odometer.odometer-auto-theme, .odometer.odometer-theme-default {
   display: inline-block;
-  vertical-align: text-top;
+  vertical-align: top;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
@@ -8,7 +8,7 @@
 }
 .odometer.odometer-auto-theme .odometer-digit, .odometer.odometer-theme-default .odometer-digit {
   display: inline-block;
-  vertical-align: text-top;
+  vertical-align: top;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
@@ -16,7 +16,7 @@
 }
 .odometer.odometer-auto-theme .odometer-digit .odometer-digit-spacer, .odometer.odometer-theme-default .odometer-digit .odometer-digit-spacer {
   display: inline-block;
-  vertical-align: text-top;
+  vertical-align: top;
   *vertical-align: auto;
   *zoom: 1;
   *display: inline;
@@ -82,11 +82,11 @@
 
 .odometer.odometer-auto-theme, .odometer.odometer-theme-default {
   font-family: "Roboto", sans-serif;
-  line-height: 1.1em;
+  line-height: 1em;
 }
 .odometer.odometer-auto-theme .odometer-value, .odometer.odometer-theme-default .odometer-value {
   text-align: center;
 }
 .odometer.odometer-auto-theme, .odometer.odometer-theme-default, .odometer-formatting-mark { 
-  line-height: 1.1em; vertical-align: text-top !important;
+  line-height: 1em; vertical-align: top !important;
 }
