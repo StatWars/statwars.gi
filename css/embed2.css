@@ -15,6 +15,9 @@ body, html {
     width: 200px;
     position: relative;
     margin-left: 10px;
+    border-color: white;
+    border-width: 4px;
+    border-style: solid;
 }
 #title {
     position: absolute;
