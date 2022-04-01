@@ -21,12 +21,12 @@ body, html {
 }
 #title {
     position: absolute;
-    top: 15px;
+    top: 5px;
     left: 240px;
     width: 1000px;
     white-space: nowrap;
     text-overflow: ellipsis;
-    font-size: 65px;
+    font-size: 70px;
     color: #fff;
 }
 #count {
