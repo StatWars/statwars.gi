@@ -12,7 +12,7 @@
     <script src="https://code.highcharts.com/highcharts.js"></script>
 </head>
 <body>
-<div id="graph" style="width: 700px; height: 250px;"></div>
+<div id="graph" style="width: 650px; height: 250px;"></div>
 <br>
 <br>
 <br>
@@ -86,7 +86,7 @@ renderTo: 'graph',
 type: 'spline',
 zoomType: 'x',
 backgroundColor: 'transparent',
-plotBorderColor: 'white'
+plotBorderColor: 'transparent'
 },
 title: {
 text: ''
@@ -94,17 +94,17 @@ text: ''
 xAxis: {
 type: 'datetime',
 tickPixelInterval: 100,
-gridLineColor: 'white',
+gridLineColor: '#transparent',
 labels: {
     style: {
         color: 'white'
     }
 },
-minorGridLineColor: 'white',
-tickColor: '#hite',
+minorGridLineColor: '#transparent',
+tickColor: 'white',
 title: {
     style: {
-        color: 'white'
+        color: '#transparent'
     }
 }
 },
@@ -112,19 +112,19 @@ yAxis: {
 title: {
   text: ''
 },
-gridLineColor: 'white',
+gridLineColor: '#transparent',
 labels: {
     style: {
         color: 'white'
     }
 },
 lineColor: 'white',
-minorGridLineColor: 'white',
+minorGridLineColor: 'transparent',
 tickColor: 'white'
 },
 credits: {
-enabled: false,
-text: "Shinigma"
+enabled: true,
+text: "Subscriberwars.space"
 },
 series: [{
 showInLegend: false,
